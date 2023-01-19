@@ -1,0 +1,40 @@
+
+```{r}
+#CLEAR AND RESTART
+rm(list = ls())
+```
+
+
+```{r}
+#DATA LIRARY
+
+house <- c(22, 24, 24, 16, 24, 22, 23, 22) # House, M.D. on Amazon Prime
+psych <- c(15, 16, 16, 16, 16, 16, 14) # Psych on Amazon Prime
+gilmore_girls <- c(21, 22, 22, 22, 22, 22, 22)
+santaclaritadiet <- c(10, 10, 10) #Santa Clarita Diet on Netflix
+
+# Criminal Minds on Hulu
+# Vampire Diaries on Netflixf
+# The Good Place on Netflix
+```
+
+
+```{r}
+# WRITE FUNCTION
+
+TVpicker <- function(tvshow){
+  
+  #picking season
+  season <- sample(length(tvshow), 1)
+  
+  #picking episode
+  episode <- sample(tvshow[season],1)
+  
+  return(print(c("season",season,"episode", episode), quote = F))
+  
+}
+```
+
+```{r}
+TVpicker(house)
+```
