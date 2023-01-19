@@ -10,4 +10,5 @@ Find the code for different iterations of my TV picker function. The function ta
 
 ***
 UPDATES
+
 January 18 2023: As of now, all iterations do not weight each episode equally. Each season is weighted equally, and episodes *within the same season* are equally weighted.
