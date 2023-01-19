@@ -1,6 +1,8 @@
 # TV Picker
 Find the code for different iterations of my TV picker function. The function takes in a name of a TV show and tells you a random episode of it to watch! As someone who rewatches the same TV shows and movies, sometimes I need a random episode to watch. So, I wrote this function to help me decide. 
 
+***
+METHODS (CHRONOLOGICAL)
 
 1. Rmd file with chunks to separate writing the data libray, writing the function, and calling a function
 2. .R script with the same content as version 1 (.Rmd)
